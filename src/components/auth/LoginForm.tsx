@@ -132,7 +132,7 @@ export function LoginForm() {
               </Alert>
             )}
 
-            <Button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white" disabled={loading}>
+            <Button type="submit" className="w-full bg-black hover:bg-gray-800 text-white" disabled={loading}>
               {loading && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
               {useMagicLink ? 'Send Magic Link' : 'Sign In'}
             </Button>

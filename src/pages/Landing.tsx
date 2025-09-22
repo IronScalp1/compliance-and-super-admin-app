@@ -44,7 +44,7 @@ export function Landing() {
             </nav>
 
             <div className="flex items-center space-x-4">
-              <Button variant="ghost" asChild className="text-red-600 hover:text-red-700 hover:bg-red-50">
+              <Button variant="ghost" asChild className="text-black hover:text-gray-800 hover:bg-gray-50">
                 <Link to="/auth/login">Sign In</Link>
               </Button>
               <Button asChild>
@@ -79,7 +79,7 @@ export function Landing() {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 text-red-600 border-red-600 hover:bg-red-600 hover:text-white">
+            <Button size="lg" variant="outline" asChild className="text-lg px-8 py-6 text-black border-black hover:bg-black hover:text-white">
               <Link to="/auth/login">
                 Sign In
               </Link>
